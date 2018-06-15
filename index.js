@@ -19,6 +19,10 @@ function inc(a) {
   return a + 1;
 }
 
+function dec(a) {
+  return a - 1;
+}
+
 console.log(add(a,b));
 console.log(subtract(a,b));
 console.log(multiply(a,b));
