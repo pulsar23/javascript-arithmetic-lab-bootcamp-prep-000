@@ -1,18 +1,18 @@
 var a = 2, b = 5;
 
 function add(a,b) {
- var add_number = a + b;
+ return a += b;
 }
  
 function subtract(a,b) {
-  a -= b;
+  return a -= b;
 }
 
 function multiply(a,b) {
-  a *= b;
+  return a *= b;
 }
 function divide(a,b) {
-  a /= b;
+  return a /= b;
 }
 
 add(a,b);
