@@ -23,12 +23,17 @@ function dec(a) {
   return a - 1;
 }
 
+function makeInt(a){
+  return parseInt('a',10);
+}
+
 console.log(add(a,b));
 console.log(subtract(a,b));
 console.log(multiply(a,b));
 console.log(divide(a,b));
 console.log(dec(a));
 console.log(inc(a));
+console.log(makeInt(a));
 
 
 
