@@ -35,8 +35,8 @@ console.log(add(a,b));
 console.log(subtract(a,b));
 console.log(multiply(a,b));
 console.log(divide(a,b));
-console.log(dec(a));
 console.log(inc(a));
+console.log(dec(a));
 console.log(makeInt(a));
 console.log(preserveDecimal(a));
 
