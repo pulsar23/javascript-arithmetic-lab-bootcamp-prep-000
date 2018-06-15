@@ -15,17 +15,9 @@ function divide(a,b) {
   return a /= b;
 }
 
-add(a,b);
-console.log(a);
+console.log(add(a,b));
 
-subtract(a,b);
-console.log(a);
 
-multiply(a,b);
-console.log(a);
-
-divide(a,b);
-console.log(a);
 
 
 
